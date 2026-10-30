@@ -14,7 +14,7 @@ const PORT = process.env.PORT || 5000;
 
 // Test route
 app.get("/", (req, res) => {
-  res.send("MERN backend is running");
+  res.send("MERN backend is running");  
 });
 
 // Signup API
