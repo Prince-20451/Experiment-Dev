@@ -1,0 +1,38 @@
+
+.container {
+  width: 350px;
+  margin: 100px auto;
+  padding: 25px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.container h1,
+.container p {
+  text-align: center;
+}
+
+.container form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.container input,
+.container form button {
+  padding: 12px;
+  font-size: 15px;
+}
+
+.container form button {
+  cursor: pointer;
+}
+
+.switch-button {
+  margin-left: 5px;
+  border: none;
+  background: none;
+  color: blue;
+  cursor: pointer;
+}
